@@ -64,7 +64,8 @@ nav a:hover {
 }
 
 nav a.active {
-  background-color: #4CAF50;
+  background-color: #fff;
+  color: #333;
 }
 
 /* Sidebar */
@@ -99,7 +100,7 @@ nav a.active {
 
 .info-content .title {
   text-align: center;
-  color: #888;
+  color: #383838;
 }
 
 .contacts-list {
@@ -339,8 +340,8 @@ footer {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #007BFF;
-  color: #fff;
+  background-color: #9db0fb;
+  color: #0f0f0f;
   cursor: pointer;
 }
 
