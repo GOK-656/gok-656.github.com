@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a class="skip" href="index.html">Skip to Main content</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Professional Experiences</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="sidebar" data-sidebar>
+
+                <div class="sidebar-info">
+
+                    <figure class="avatar-box">
+                        <img src="image/personal.jpg" alt="Yifan Li" width="135">
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name">Yifan (Ivan) Li</h1>
+
+                        <p class="title">DS Master @ University of Michigan</p>
+                    </div>
+
+                </div>
+
+                <div class="sidebar-info_more">
+
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a href="mailto:ivanli656@hotmail.com" class="contact-link">ivanli656@hotmail.com</a>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+
+                                <a href="tel:+17348827966" class="contact-link">+1 (734) 882-7966</a><br>
+                                <a href="tel:+8617321175598" class="contact-link">+86 173-2117-5598</a>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Birthday</p>
+
+                                <time datetime="2002-07-02">July 02, 2002</time>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+
+                                <address>Ann Arbor, Michigan, USA</address>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Linkedin</p>
+
+                                <a
+                                    href="https://www.linkedin.com/in/yifan-ivan-li-a67165253">yifan-ivan-li-a67165253</a>
+                            </div>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="contact-block">
+                    <h1>My Location</h1>
+                    <section class="mapbox" data-mapbox>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed/v1/place?q=1929%20Plymouth%20Road%2C%20%E5%AE%89%E5%A8%9C%E5%A0%A1%E5%AF%86%E6%AD%87%E6%A0%B9%E7%BE%8E%E5%9B%BD&key=AIzaSyAi82nspZKB2Ea5ZOsnX_5wKr3TMf18Poo"
+                                loading="lazy"></iframe>
+                        </figure>
+                    </section>
+                </div>
+                <div class="contact-block">
+                    <h1>Contact Me</h1>
+                    <ul>
+                        <li>
+                            <ion-icon name="phone-portrait-outline"></ion-icon><a href="tel:+17348827966"
+                                class="contact-link">+1 (734) 882-7966</a>
+                        </li>
+                        <li>
+                            <ion-icon name="mail-outline"></ion-icon><a href="mailto:ivanli656@hotmail.com"
+                                class="contact-link">ivanli656@hotmail.com</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-github"></ion-icon><a href="https://github.com/GOK-656"
+                                class="contact-link">https://github.com/GOK-656</a>
+                        </li>
+                        <li>
+                            <ion-icon name="logo-linkedin"></ion-icon><a
+                                href="https://www.linkedin.com/in/yifan-ivan-li-a67165253" class="contact-link">https://www.linkedin.com/in/yifan-ivan-li-a67165253</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-block">
+                    <h1>Comments</h1>
+                    <p>Leave any comments you have on this website! Play around here!</p>
+                    <form id="inputForm">
+                        <label for="comment"></label>
+                        <input type="text" id="comment" required placeholder="Anything you want to share">
+                    
+                        <button type="button" id="submitForm">Submit</button>
+                    </form>
+                    <h2>Your comments:</h2>
+                    <ul id="commentList"></ul>                   
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Personal Website. All rights reserved.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

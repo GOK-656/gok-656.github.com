@@ -1,0 +1,367 @@
+.skip {
+  position: absolute;
+  top: -1000px;
+  height: 25px;
+  background-color: white;
+}
+
+.skip:focus {
+  top: 10px;
+}
+
+/* titles */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body {
+  font-size: 16px; /* change when needed */
+}
+
+main {
+  margin: 30px;
+}
+
+/* Nav */
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+}
+
+/* Sidebar */
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-info {
+  margin-bottom: 20px;
+}
+
+.avatar-box {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+
+.info-content .name {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.info-content .title {
+  text-align: center;
+  color: #888;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-box {
+  margin-right: 10px;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+.contact-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.separator {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Main content */
+.content {
+  flex-grow: 1;
+  padding-left: 30px; 
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills .skill-block {
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px; 
+  
+}
+
+.skills .skill-block:hover {
+  transform: scale(1.1); /* Slightly enlarge the block */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase the shadow */
+}
+
+.skills .skill-name {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #ddd;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  height: 40px;
+}
+
+.skills p {
+  padding: 10px;
+}
+
+.awards ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.awards li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* education */
+.school {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.school div:first-child {
+  margin: auto;
+}
+
+.school img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.school-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.school ul {
+  padding: 0;
+}
+
+
+/* experience */
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.company div:first-child {
+  margin: auto;
+}
+
+.company img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.company-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.company ul {
+  padding: 0;
+}
+
+
+.project {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.project li {
+  margin-bottom: 10px;
+}
+
+.project ion-icon {
+  color: #4078c0;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+/* contact */
+.mapbox figure {
+  margin: 0;
+}
+.mapbox iframe {
+  width: 80%;
+  height: 350px;
+}
+
+.contact-block ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-block ul li {
+  margin-bottom: 10px;
+}
+
+.contact-block ul li ion-icon {
+  margin-right: 10px;
+}
+
+.contact-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+#commentList li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#inputForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#inputForm input {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#submitForm {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .company, .school {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    /* justify-items: center; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px; /* change when needed */
+  }
+  .skills .skill-block {
+    width: max(20%, 200px);
+  }
+  
+}
