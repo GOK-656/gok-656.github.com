@@ -73,10 +73,11 @@ nav a.active {
 }
 
 .sidebar {
-  width: 200px;
+  width: 250px;
   background-color: #f4f4f4;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
 .sidebar-info {
@@ -218,7 +219,7 @@ footer {
 }
 
 .school ul {
-  padding: 0;
+  padding: 10px;
 }
 
 
@@ -250,7 +251,7 @@ footer {
 }
 
 .company ul {
-  padding: 0;
+  padding: 10px;
 }
 
 
@@ -353,6 +354,10 @@ footer {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
+  }
+
+  .sidebar {
+    display: block;
   }
 }
 
