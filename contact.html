@@ -153,11 +153,14 @@
                 <div class="contact-block">
                     <h1>Comments</h1>
                     <p>Leave any comments you have on this website! Play around here!</p>
-                    <form id="inputForm">
-                        <label for="comment">Your Comments:</label>
-                        <input type="text" id="comment" required placeholder="Anything you want to share">
-                    
-                        <button type="button" id="submitForm">Submit</button>
+                    <form id="inputForm" action="https://formspree.io/f/xeqbbvdd"
+                    method="POST">
+                        <label for="comment">Your Comments:
+                            <textarea type="text" id="comment" name="comment" required placeholder="Anything you want to share"></textarea>
+                        </label>
+
+                        <!-- <button type="button" id="submitForm">Submit</button> -->
+                        <input type="submit" value="Submit">
                     </form>
                     
                     <ul id="commentList"></ul>                   
